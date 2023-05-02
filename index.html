@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <meta name="character" content="zarate azorsa paolo">
+  <title>Document</title>
+</head>
+<body>
+<form action="get">
+  <label for="firstName">First Name :</label>
+  <input type="text" id="firstName" name="nombre" placeholder="insert your first name" value="paolo" required>
+  <br>
+  <br>
+  <label for="lastName">Last Name :</label>
+  <input type="text" id="lastName" name="apellidos" placeholder="insert your last name" value="zarate" required>
+  <br>
+  <br>
+  <label for="dateofbirth">Date of birth :</label>
+  <input type="date" id="dateofbirth" name="año-de-nacimiento"  >
+  <br>
+  <br>
+  <label for="phoneNumber">Phone Number :</label>
+  <input type="tel" id="phoneNumber" name="numero-telefoninco"  maxlength="9" placeholder="923215213">
+  <br>
+  <br>
+  <label for="email">Email Address :</label>
+  <input type="email" id="email" name="su-email" placeholder="paolo@gmail.com">
+  <br>
+  <br>
+  <label for="password">Password :</label>
+  <input type="password" id="password" name="contraseña"minlength="6" maxlength="9" required>
+  <br>
+  <br>
+  <label for="nationality">Nationality :</label>
+  <input type="text" id="nationality" name="pais-de-origen" value="peru" readonly >
+  <br>
+  <br>
+  <label for="quantity">Quantity of products :</label>
+  <input type="number" id="quantity" name="cantidad_productos" min="0" max="10" value="1">
+  <br>
+  <br> 
+
+   <div>
+   <label for="payment_method">Payment Method :</label>
+   <label for="paypal">Paypal</label>
+   <input type="radio" id="paypal" name="payment_method" value="paypal">
+   <label for="yape">YAPE</label>
+   <input type="radio" id="yape" name="payment_method" value="yape">
+   <label for="bin">BIN</label>
+   <input type="radio" id="bin" name="payment_method" value="bin">
+   <label for="bbva">BBVA</label>
+   <input type="radio" id="bbva" name="payment_method" value="bbva">
+   </div>
+
+   <br>
+
+  <input type="submit"> <input type="reset">
+
+   <br> <br>
+   <label for="currency">currency :</label>
+   <select name="moneda" id="currency">
+     <option value="dollar">$ dollar</option>
+     <option value="euro">€ euro</option>
+     <option value="soles">S/ soles</option>
+   </select>
+
+</form>
+
+</body>
+</html>
